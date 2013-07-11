@@ -1,0 +1,129 @@
+body {
+	margin-top: 90px;
+	padding: 0 15%;
+	background-color: #eee;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+}
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+	font-size: 32px;
+	font-weight: 900;
+	padding: 20px;
+}
+strong {
+	font-weight: bold;
+}
+.section {
+	padding: 50px 15%;
+}
+.green {
+	color: white;
+	background-color: #469956;
+}
+.white {
+	color: #469956;
+	background-color: white;
+}
+.landscape {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* Navbar */
+#navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	padding: 10px;
+	background-color: white;
+	border-bottom: 2px solid black;
+}
+
+#navbar li {
+	float: left;
+	font-size: 20px;
+	margin: 20px 10px;
+	border-radius: 10px;
+	padding: 10px;
+	text-shadow: 1px 1px 0px black;
+	background-color: #469956;
+	border: 2px solid white;
+	-webkit-transition: background-color 0.5s, border 0.5s;
+	-moz-transition: background-color 0.5s, border 0.5s;
+	transition: background-color 0.5s, border 0.5s;
+}
+#navbar li a {
+	color: white;
+	text-decoration: none;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	transition: color 0.5s;
+}
+#navbar li:hover {
+	background-color: white;
+	border: 2px solid #469956;
+}
+#navbar li a:hover {
+	color: #469956;
+}
+
+/* Team list */
+
+#team-list {
+	margin: 20px 0 0 10px;
+}
+#team-list li {
+	padding-left: 50px;
+	margin: 10px;
+}
+li.flag-spain {
+	background: url('../img/flags/spain.gif') no-repeat left;
+}
+li.flag-italy {
+	background: url('../img/flags/italy.gif') no-repeat left;
+}
+li.flag-netherlands {
+	background: url('../img/flags/netherlands.gif') no-repeat left;
+}
+#partners-list li {
+	height: 80px;
+	margin: 20px;
+	padding-left: 250px;
+}
+li.cm3-logo {
+	background: url('../img/logo_cm3.jpg') no-repeat left;
+}
+li.lightronics-logo {
+	background: url('../img/logo_lightronics.png') no-repeat left;
+}
+li.tvilight-logo {
+	background: url('../img/logo_tvilight.png') no-repeat left;
+}
+li.imtech-logo {
+	background: url('../img/logo_imtech.png') no-repeat left;
+}
+li.hig-logo {
+	background: url('../img/logo_hig.png') no-repeat left;
+}
+li.kijlstra-logo {
+	background: url('../img/logo_kijlstra.png') no-repeat left;
+}
+.green a {
+	color: white;
+}
+.green a:visited {
+	color: white;
+}
+#footer {
+	background-color: white;
+	border-top: 2px solid black;
+	padding: 30px;
+	text-align: center;
+}
